@@ -7,8 +7,6 @@ import java.util.concurrent.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println( 151 % 15);
-        System.out.println(151 & 15);
 //        new ThreadLocal<Integer>() {
 //            @Override
 //            protected Integer initialValue() {
@@ -45,8 +43,8 @@ public class Main {
 //        shellSort(a);
 //        guiBing();
 //        huaFen(0, a.length - 1, a);
-//        huaFenSort(0, a.length - 1, a);
-        guiBingSort(0, a.length -1, a, new int[a.length]);
+        huaFenSort(0, a.length - 1, a);
+//        guiBingSort(0, a.length -1, a, new int[a.length]);
         System.out.println(Arrays.toString(a));
     }
 
